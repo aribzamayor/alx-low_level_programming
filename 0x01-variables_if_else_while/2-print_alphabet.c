@@ -9,7 +9,7 @@ int main(void)
 {
 char a = 'a';
 int n = '0';
-while (0 < 26)
+while (n < 26)
 {
 putchar (a);
 a++;
