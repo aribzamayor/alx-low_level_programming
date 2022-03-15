@@ -1,4 +1,6 @@
-#include "putchar.h"
+#include "main.h"
+/* Declaration of print_putchar function */
+void print_putchar(void);
 /**
 * _putchar - writes the character c to stdout
 * @c: The character to print
@@ -7,6 +9,14 @@
 * On error, -1 is returned, and errno is set appropriately.
 */
 int main(void)
+{
+print_putchar();
+return (0);
+}
+/*
+* print_putchar - writes _putchar string to the stdout
+*/
+void print_putchar(void)
 {
 _putchar('_');
 _putchar('p');
@@ -17,5 +27,4 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-return (0);
 }
