@@ -3,8 +3,8 @@
 * main -  prints _putchar, followed by a new line
 * Return: Always 0 (Success)
 */
-void print_putchar(void);
 int main(void)
+void print_putchar(void);
 {
 print_putchar();
 return (0);
@@ -13,7 +13,6 @@ return (0);
 * main -  prints Holberton, followed by a new line
 * Return: Always 0 (Success)
 */
-void print_putchar(void)
 {
 _putchar('_');
 _putchar('p');
