@@ -9,6 +9,10 @@ int main(void)
 print_putchar();
 return (0);
 }
+/**
+* main -  prints Holberton, followed by a new line
+* Return: Always 0 (Success)
+*/
 void print_putchar(void)
 {
 _putchar('_');
