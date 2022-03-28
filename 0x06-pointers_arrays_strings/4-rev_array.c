@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * main - check the code
- * @a: an array of integers
- * @n: the number of elements to swap
- *
- * Return: nothing.
+ * reverse_array - reverses an array of integers
+ * @a: array to be reversed
+ * @n: number of elements in the array
  */
 void reverse_array(int *a, int n)
 {
