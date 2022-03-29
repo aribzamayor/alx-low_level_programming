@@ -33,9 +33,9 @@ char *infinite_add(char *n1, char *n2, char *r, int n)
 
 	if ((i < len1 || i < len2) || (i < 0 && add))
 		return (0);
-	
+
 	add ? r[i] = add + '0' : 1;
 	i += add ? 0 : 1;
-	
+
 	return (r + i);
 }
